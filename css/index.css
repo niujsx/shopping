@@ -132,10 +132,9 @@ nav .w ul li a {
 .navitems {
   float: left;
   width: 248px;
-  height: 455px;
-  margin: 10px 0;
-  /* padding: 0 15px; */
+  margin: 10px 0 5px 0;
   border: 1px solid #e4e4e4;
+  border-bottom: none;
   background-color: #fff;
 }
 .navitems h4 {
@@ -158,12 +157,11 @@ nav .w ul li a {
 }
 /* 生活服务 */
 .life_service {
-  width: 250px;
-  height: 210px;
+  width: 100%;
 }
 .life_service li {
   float: left;
-  width: 63px;
+  width: 62px;
   height: 70px;
   text-align: center;
   border: 1px solid #e8e8e7;
