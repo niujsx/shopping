@@ -164,6 +164,7 @@ nav .w ul li a {
 .navitems .info li {
   margin: 6px 0;
 }
+/* 今日推荐 */
 .tuijian {
   margin-top: 10px;
 }
@@ -208,11 +209,22 @@ nav .w ul li a {
   line-height: 20px;
   text-align: center;
   font-size: 14px;
+  color: #fff;
   border-radius: 15px;
 }
 .tuijian dd img {
   float: right;
 }
+/* 猜你喜欢 */
+
+.like li {
+  float: left;
+  padding: 25px 33px 12px;
+  text-align: center;
+  width: 200px;
+  height: 230px;
+}
+
 /* 生活服务 */
 .life_service {
   width: 100%;
