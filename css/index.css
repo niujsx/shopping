@@ -1,3 +1,12 @@
+.bgred {
+  background-color: #e2162f;
+}
+.bggreen {
+  background-color: #5fb200;
+}
+.bgblue {
+  background-color: #0085fb;
+}
 .header {
   height: 105px;
   padding: 25px 0 20px 0;
@@ -154,6 +163,55 @@ nav .w ul li a {
 }
 .navitems .info li {
   margin: 6px 0;
+}
+.tuijian {
+  margin-top: 10px;
+}
+.tuijian dt {
+  float: left;
+  width: 206px;
+  height: 165px;
+  padding: 30px;
+  background-color: #5c5251;
+  text-align: center;
+}
+.tuijian dt h4 {
+  margin-top: 5px;
+  color: #fff;
+  font: 400 18px "Microsoft YaHei";
+}
+.tuijian dd {
+  float: left;
+  width: 248px;
+  height: 165px;
+  background-color: #ebebeb;
+  padding: 20px;
+  border-right: 1px solid #dddddd;
+}
+.tuijian dd .left {
+  float: left;
+}
+.tuijian dd h4 {
+  font-size: 16px;
+  color: black;
+}
+.tuijian dd h5 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+.tuijian dd h6 {
+  margin-top: 22px;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 15px;
+}
+.tuijian dd img {
+  float: right;
 }
 /* 生活服务 */
 .life_service {
