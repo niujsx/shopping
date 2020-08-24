@@ -216,14 +216,26 @@ nav .w ul li a {
   float: right;
 }
 /* 猜你喜欢 */
+.like .title-one {
+  height: 40px;
+  line-height: 40px;
+}
+.like .title-one h4 {
+  float: left;
+  font: 400 18px/40px "Microsoft YaHei";
+}
+
+.like .title-one a {
+  float: right;
+  font-size: 12px;
+}
 .like ul {
   border: 1px solid #ededed;
-  width: 100%;
-  height: 234px;
+  width: calc(100% - 2px);
+  padding-bottom: 10px;
 }
 .like li {
   float: left;
-  padding: 25px 33px 12px;
   text-align: center;
   width: 198px;
   height: 100%;
@@ -233,13 +245,12 @@ nav .w ul li a {
   text-align: center;
   line-height: 150px;
 }
-.like ul li .im img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.like ul li p {
+
+.like ul li .intro {
   border-right: 1px solid #ededed;
+}
+.like ul li:last-child .intro {
+  border: none;
 }
 /* 生活服务 */
 .life_service {
