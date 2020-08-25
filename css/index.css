@@ -252,6 +252,14 @@ nav .w ul li a {
 .like ul li:last-child .intro {
   border: none;
 }
+/* 猜你喜欢结束 */
+.fasci .title-two {
+  height: 40px;
+  line-height: 40px;
+}
+.fasci .title-two h4 {
+  font: 400 18px/40px "Microsoft YaHei";
+}
 /* 生活服务 */
 .life_service {
   width: 100%;
