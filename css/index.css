@@ -253,12 +253,256 @@ nav .w ul li a {
   border: none;
 }
 /* 猜你喜欢结束 */
+/*传智播客有趣区 */
 .fasci .title-two {
   height: 40px;
   line-height: 40px;
 }
-.fasci .title-two h4 {
+.fasci .title-two > h4 {
   font: 400 18px/40px "Microsoft YaHei";
+}
+/* 传智播客左一 */
+.cast {
+  height: 405px;
+}
+.cast .cast-one {
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 100%;
+  padding: 23px 20px;
+  background-color: #b8bddd;
+}
+.cast .cast-one h4 {
+  font: 400 18px "Microsoft YaHei";
+  color: #3b468d;
+}
+.cast .cast-one p {
+  font: 400 16px "Microsoft YaHei";
+  color: #3b468d;
+}
+.cast .cast-one img {
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+}
+/* 传智播客左二 */
+.cast .cast-two {
+  float: left;
+  width: 228px;
+  height: 100%;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+.cast .cast-two > h5 {
+  width: 192px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  font: 700 14px/40px "Microsoft YaHei";
+  border-bottom: 1px dashed #ededed;
+}
+.cast-two .daren {
+  position: relative;
+  width: 100%;
+  height: 206px;
+  border-bottom: 1px solid #ededed;
+}
+.cast-two .daren h4,
+.cast-two .faxian h4 {
+  font: 700 16px "Microsoft YaHei";
+  margin-bottom: 10px;
+}
+.cast-two .daren p,
+.cast-two .faxian p {
+  font: 700 12px "Microsoft YaHei";
+}
+.cast-two .daren .daren-left {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+.cast-two .daren .daren-right {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+.cast-two .faxian {
+  position: relative;
+  width: 100%;
+  height: 158px;
+}
+.cast-two .faxian .faxian-left {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+}
+.cast-two .faxian .faxian-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* 传智播客左二--完成 */
+/* 传智播客左三 */
+.cast .cast-three {
+  float: left;
+  width: 405px;
+  height: 100%;
+  background-color: #f7f7f7;
+  border: 1px solid #ededed;
+}
+.cast-three > h5 {
+  width: 366px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  font: 700 14px/40px "Microsoft YaHei";
+  border-bottom: 1px dashed #ededed;
+}
+.pinpai-one {
+  position: relative;
+  width: 100%;
+  height: 206px;
+  border-bottom: 1px solid #ededed;
+}
+.pinpai-one .pp-o-left {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+.pinpai-one .pp-o-right {
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+.pinpai-two,
+.pinpai-three {
+  position: relative;
+  float: left;
+  width: 201px;
+  height: 158px;
+}
+.pinpai-two {
+  border-right: 1px solid #ededed;
+}
+.pinpai-two .pp-t-left,
+.pinpai-three .pp-th-left {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+}
+.pinpai-two .pp-t-right,
+.pinpai-three .pp-th-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.cast .cast-four {
+  float: left;
+  width: 164px;
+  height: 100%;
+  border: 1px solid #ededed;
+  border-left: none;
+}
+.cast .cast-four img {
+  width: 100%;
+}
+/* 家用电器 */
+.title-three {
+  position: relative;
+  height: 60px;
+  border-bottom: 2px solid #c81623;
+}
+.title-three h4 {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  font: 400 18px "Microsoft YaHei";
+  color: #c81623;
+}
+.title-three ul {
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+}
+.title-three ul li {
+  float: left;
+  height: 12px;
+  line-height: 12px;
+  padding: 0 15px;
+  border-right: 1px solid #666666;
+}
+.title-three ul li:last-child {
+  border: none;
+}
+/* 家用电器展示 */
+.elec {
+  height: 360px;
+}
+/* 家电左一 */
+.elec .elec-one {
+  float: left;
+  width: 210px;
+  height: 100%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.elec .elec-one ul {
+  margin: 0 auto;
+}
+.elec .elec-one ul li {
+  float: left;
+  margin-left: 10px;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+}
+.elec .elec-one h4 {
+  margin-top: 25px;
+  font: 400 18px "Microsoft YaHei";
+  color: #c81623;
+}
+.elec .elec-one p {
+  margin-bottom: 25px;
+  color: #c81623;
+}
+/* 家电左二 */
+.elec .elec-two {
+  float: left;
+  width: 330px;
+  height: 100%;
+  padding: 38px 30px 0;
+  text-align: center;
+  background-color: #aed6d8;
+}
+.elec .elec-two h4 {
+  font: 400 18px "Microsoft YaHei";
+  text-align: left;
+  color: #066c7d;
+}
+.elec .elec-two h5 {
+  margin-bottom: 35px;
+  font: 400 16px "Microsoft YaHei";
+  color: #066c7d;
+  text-align: left;
+}
+.elec-two ul {
+  width: 45px;
+  margin: 15px auto;
+}
+.elec-two ul li {
+  float: left;
+  width: 10px;
+  margin-left: 7px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3e3e3e;
+}
+.elec-two ul li:first-child {
+  margin-left: 0;
+  background-color: #fff;
 }
 /* 生活服务 */
 .life_service {
