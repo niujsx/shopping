@@ -408,18 +408,25 @@ nav .w ul li a {
   width: 100%;
 }
 /* 家用电器 */
-.title-three {
+.title-three,
+.title-four {
   position: relative;
   height: 60px;
+}
+.title-three {
   border-bottom: 2px solid #c81623;
 }
-.title-three h4 {
+.title-three h4,
+.title-four h4 {
   position: absolute;
   bottom: 8px;
   left: 0;
   font: 400 18px "Microsoft YaHei";
+}
+.title-three h4 {
   color: #c81623;
 }
+
 .title-three ul {
   position: absolute;
   bottom: 8px;
@@ -503,6 +510,108 @@ nav .w ul li a {
 .elec-two ul li:first-child {
   margin-left: 0;
   background-color: #fff;
+}
+/* 家电左三 */
+.elec-thr,
+.elec-five {
+  float: left;
+  width: 220px;
+  height: 100%;
+}
+.elec-thr h4,
+.elec-five h4 {
+  font: 400 16px "Microsoft YaHei";
+}
+.elec-thr p,
+.elec-five p {
+  font: 400 14px "Microsoft YaHei";
+  color: red;
+}
+.elec-thr .elec-thr-top,
+.elec-thr .elec-thr-bot,
+.elec-five .elec-five-top,
+.elec-five .elec-five-bot {
+  padding: 20px 0 0 20px;
+  position: relative;
+  height: 50%;
+  border-bottom: 1px solid #ededed;
+}
+.elec-thr .elec-thr-top img,
+.elec-thr .elec-thr-bot img,
+.elec-five .elec-five-top img,
+.elec-five .elec-five-bot img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* 家电左四 */
+.elec-four {
+  float: left;
+  width: 220px;
+  height: 100%;
+  text-align: center;
+  border: 1px solid #ededed;
+}
+.elec-four h4 {
+  margin-top: 70px;
+  font: 400 18px "Microsoft YaHei";
+}
+.elec-four p {
+  margin-bottom: 80px;
+  font: 400 16px "Microsoft YaHei";
+  color: #a1a1a1;
+}
+.elec-five .elec-five-bot {
+  border-right: 1px solid #ededed;
+}
+/* 合作品牌 */
+.hezuo {
+  margin: 10px auto;
+}
+/* 热门疯抢 */
+.title-four h4 {
+  color: #666666;
+}
+.remen ul {
+  height: 284px;
+  width: 900px;
+}
+.remen ul li {
+  float: left;
+  width: 220px;
+  height: 50%;
+  padding: 20px 10px;
+  border: 1px solid #ededed;
+}
+.remen ul li img {
+  float: left;
+  margin-right: 5px;
+}
+.remen ul li p {
+  text-align: left;
+}
+.remen ul li h4 {
+  margin-top: 5px;
+  text-align: left;
+  font: 400 18px "Microsoft YaHei";
+  color: red;
+}
+.remen ul li:first-child {
+  width: 240px;
+  height: 100%;
+  padding: 40px 0 40px 30px;
+}
+.remen ul li:first-child img {
+  float: none;
+}
+.remen ul li:first-child p {
+  margin-top: 60px;
+  text-align: left;
+}
+.remen ul li:first-child h4 {
+  text-align: left;
+  font: 400 18px "Microsoft YaHei";
+  color: red;
 }
 /* 生活服务 */
 .life_service {
