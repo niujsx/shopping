@@ -573,11 +573,14 @@ nav .w ul li a {
   color: #666666;
 }
 .remen ul {
+  float: left;
   height: 284px;
-  width: 900px;
+  width: 896px;
 }
 .remen ul li {
   float: left;
+  margin-left: -1px;
+  margin-top: -1px;
   width: 220px;
   height: 50%;
   padding: 20px 10px;
@@ -598,7 +601,7 @@ nav .w ul li a {
 }
 .remen ul li:first-child {
   width: 240px;
-  height: 100%;
+  height: calc(100% - 1px);
   padding: 40px 0 40px 30px;
 }
 .remen ul li:first-child img {
@@ -613,6 +616,72 @@ nav .w ul li a {
   font: 400 18px "Microsoft YaHei";
   color: red;
 }
+.remen .pinglun {
+  float: left;
+  margin-left: -1px;
+  margin-top: -1px;
+  width: 300px;
+  height: 283px;
+  border: 1px solid #ededed;
+}
+.pinglun .pinglun-top,
+.pinglun .pinglun-bot {
+  position: relative;
+  height: 50%;
+  padding: 35px 10px 10px 20px;
+}
+.pinglun .pinglun-top .pl-t-l,
+.pinglun .pinglun-bot .pl-b-l {
+  position: absolute;
+  left: 20px;
+  top: 30%;
+}
+.pl-t-r,
+.pl-b-r {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.pl-t-r span,
+.pl-b-r span {
+  vertical-align: middle;
+}
+.pl-t-r span,
+.pl-b-r span {
+  margin: 5px;
+}
+.pl-t-r p::before {
+  position: absolute;
+  right: 165px;
+  bottom: 20px;
+  content: "";
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  border: 10px solid transparent;
+  border-right-color: #f8f8f8;
+}
+.pl-b-r p::before {
+  position: absolute;
+  right: 165px;
+  bottom: 25px;
+  content: "";
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  border: 10px solid transparent;
+  border-right-color: #f8f8f8;
+}
+.pl-t-r p,
+.pl-b-r p {
+  padding: 5px;
+  font-size: 14px;
+  width: 165px;
+  background-color: #f8f8f8;
+}
+
 /* 生活服务 */
 .life_service {
   width: 100%;
