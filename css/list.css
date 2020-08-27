@@ -1,0 +1,104 @@
+body {
+  height: 3000px;
+}
+.bgred {
+  background-color: #e2162f;
+}
+.bggreen {
+  background-color: #5fb200;
+}
+.bgblue {
+  background-color: #0085fb;
+}
+.header {
+  height: 105px;
+  padding: 25px 0 20px 0;
+}
+.logo {
+  float: left;
+}
+.logo .shu {
+  margin: 0 14px;
+}
+.header_middle {
+  float: left;
+  margin: 0 110px 0 77px;
+}
+.search input {
+  float: left;
+  padding-left: 10px;
+  width: 455px;
+  height: 36px;
+  border: 2px solid #b1191a;
+  border-right: none;
+}
+
+.search a {
+  float: left;
+  width: 82px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  margin-left: -3px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #b1191a;
+}
+.hotwords li {
+  float: left;
+  padding: 8px 12px 0;
+}
+.hotwords li a {
+  font-size: 12px;
+}
+/* 购物车 */
+.shopcar {
+  position: relative;
+  float: right;
+  width: 140px;
+  height: 36px;
+  margin-right: 60px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid #dfdfdf;
+  background-color: #f7f7f7;
+}
+
+.shopcar .count {
+  position: absolute;
+  top: -3px;
+  right: 10px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  background-color: red;
+  border-radius: 8px 8px 8px 0;
+  color: #fff;
+}
+/* 品优秒杀一行的导航 */
+nav {
+  width: 100%;
+  height: 44px;
+  border-bottom: 2px solid #b1191a;
+}
+
+nav .w .miaosha {
+  font: 700 16px "Microsoft YaHei";
+  padding-right: 23px;
+  color: #000000;
+}
+nav .w ul li {
+  float: left;
+  font: 400 14px "Microsoft YaHei";
+  padding: 10px 22px;
+}
+nav .w ul li span {
+  font-family: "icomoon";
+}
+/* 宣传图一行的导航栏完毕 */
+/* 女鞋标题 */
+.title-xie {
+  width: 1200px;
+  height: 120px;
+  background: url(images/beijing.png);
+}
