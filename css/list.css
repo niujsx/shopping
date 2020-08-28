@@ -101,4 +101,27 @@ nav .w ul li span {
   width: 1200px;
   height: 120px;
   background: url("../images/beijing.png") no-repeat center;
+  overflow: hidden;
+}
+.nvxie {
+  width: 100px;
+  text-align: center;
+  margin: 26px auto 20px;
+}
+.nvxie span {
+  margin-left: 10px;
+  vertical-align: middle;
+  font: 700 24px "Microsoft YaHei";
+  color: #c81523;
+}
+.qianggou {
+  width: 230px;
+  margin: 0 auto;
+  text-align: center;
+}
+.qianggou span {
+  margin: 0 20px;
+  vertical-align: middle;
+  font: 400 16px "Microsoft YaHei";
+  color: #000000;
 }
