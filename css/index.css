@@ -8,62 +8,88 @@
   background-color: #0085fb;
 }
 .header {
+  position: relative;
   height: 105px;
   padding: 25px 0 20px 0;
 }
-.logo {
-  float: left;
+.header h1 {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 171px;
+  height: 61px;
+  background: url(../images/logo.png);
 }
-.header_middle {
-  float: left;
-  margin: 0 110px 0 170px;
+.header h1 a {
+  display: block;
+  width: 171px;
+  height: 61px;
+  font-size: 0;
+}
+
+.search {
+  position: absolute;
+  left: 348px;
+  top: 25px;
+  width: 540px;
+  height: 34px;
+  border: 2px solid #b1191a;
 }
 .search input {
   float: left;
   padding-left: 10px;
-  width: 455px;
-  height: 36px;
-  border: 2px solid #b1191a;
-  border-right: none;
+  width: 454px;
+  height: 30px;
 }
 
-.search a {
-  float: left;
+.search button {
+  float: right;
   width: 82px;
-  height: 36px;
-  line-height: 36px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
-  margin-left: -3px;
   font-size: 16px;
-  color: #fff;
   background-color: #b1191a;
+  color: #fff;
 }
-.hotwords li {
-  float: left;
-  padding: 8px 12px 0;
+.hotwords {
+  position: absolute;
+  top: 64px;
+  left: 348px;
 }
-.hotwords li a {
+.hotwords a {
+  margin: 0 12px;
   font-size: 12px;
 }
 /* 购物车 */
 .shopcar {
-  position: relative;
-  float: right;
+  position: absolute;
+  right: 20px;
+  top: 25px;
   width: 140px;
   height: 36px;
-  margin-right: 60px;
   line-height: 36px;
   text-align: center;
   border: 1px solid #dfdfdf;
   background-color: #f7f7f7;
 }
-
+.shopcar::before {
+  content: "\f07a";
+  font-family: "icomoon";
+  color: #c81623;
+  margin-right: 5px;
+}
+.shopcar::after {
+  content: "\e909";
+  font-family: "icomoon";
+  margin-left: 10px;
+}
 .shopcar .count {
   position: absolute;
   top: -3px;
-  right: 10px;
-  width: 16px;
+  left: 102px;
   height: 16px;
+  padding: 0 5px;
   line-height: 16px;
   background-color: red;
   border-radius: 8px 8px 8px 0;
